@@ -26,13 +26,10 @@ Session Closed...
 Next version 
 
 - Ftpfile listing
-
 - Ftp Directory Upload 
-
 - Ftp Command Operations 
-
 - Config.ini file pass and user encryption and decryption 
-- 
+
   Created  by PolymorphicCode
 
  
