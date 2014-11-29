@@ -19,7 +19,7 @@ def upload(filename,filedirectory = None,folderstate = 0):
 	filename_extension_together = os.path.splitext(filename)
 	storefilename = filename_extension_together[0]+filename_extension_together[1]
 	file = open(filename,'rb')                  # file to send
-	print "Opening Folder %s " ,filedirectory
+	print "Opening Folder " ,filedirectory
 	print "Sending ..."
 	
 
