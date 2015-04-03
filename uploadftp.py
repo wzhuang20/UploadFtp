@@ -52,7 +52,7 @@ def getList(filedirectory = None):
 	session = ftplib.FTP(host,user,password)
 	filelist = [] #to store all files
 	if filedirectory is not None: # current directory list
-		session.cwd(filedirectory)               # change into "debian" directory
+		session.cwd(filedirectory)               
 	print "List of Content"	
 	print session.retrlines('LIST')
 	session.quit()
